@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang đầu tiên của tôi</title>
+    <link rel="Stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Xin chào</h1>
+        <p>Đây là trang web đầu tiên của tôi.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Giới thiệu</h2>
+            <p>Tôi đang học HTML và CSS để xây dựng website.</p>
+        </section>
+
+        <section>
+            <h2>sở thích</h2>
+            <ul>
+                <li>Chơi game</li>
+                <li>Nghe nhạc</li>
+                <li>Độ xe</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Hình ảnh</h2>
+            <img src="https://tse4.mm.bing.net/th/id/OIP.cTQ_4iNjbkWDyof0gSNhKwHaE7?pid=Api&P=0&h=180" alt="Ảnh Minh họa">
+        </section>
+
+        <section>
+            <h2>Liên kết</h2>
+            <a href="https://vn.images.search.yahoo.com/images/view;_ylt=Awr1UXbhRUFqvMU6Q09tUwx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzNiOTI2ODA0OTFiY2RiZDQ3YjMzNGVkMzc4MjA5Y2QwBGdwb3MDNARpdANiaW5n?back=https%3A%2F%2Fvn.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dh%25C3%25ACnh%2B%25E1%25BA%25A3nh%2Bth%25E1%25BB%25A7%2B%25C4%2591%25C3%25B4%2Bh%25C3%25A0%2Bn%25E1%25BB%2599i%2Bvi%25E1%25BB%2587t%2Bnam%26ei%3DUTF-8%26type%3DE210VN714G92020%26fr%3Dmcafee%26fr2%3Dp%253As%252Cv%253Ai%252Cm%253Asb-top%26tab%3Dorganic%26ri%3D4&w=4000&h=2666&imgurl=img1.kienthucvui.vn%2Fuploads%2F2019%2F07%2F19%2Fho-hoan-kiem-ha-noi_112953128.jpg&rurl=https%3A%2F%2Fkienthucvui.vn%2Fanh-dep-thu-do-ha-noi-lam-sao-xuyen-long-nguoi-12%2F&size=4070KB&p=h%C3%ACnh+%E1%BA%A3nh+th%E1%BB%A7+%C4%91%C3%B4+h%C3%A0+n%E1%BB%99i+vi%E1%BB%87t+nam&oid=3b92680491bcdbd47b334ed378209cd0&fr2=p%3As%2Cv%3Ai%2Cm%3Asb-top&fr=mcafee&tt=%E1%BA%A2nh+%C4%91%E1%BA%B9p+th%E1%BB%A7+%C4%91%C3%B4+H%C3%A0+N%E1%BB%99i+l%C3%A0m+sao+xuy%E1%BA%BFn+l%C3%B2ng+ng%C6%B0%E1%BB%9Di&b=0&ni=80&no=4&ts=&tab=organic&sigr=99q18NDmVqpU&sigb=g9rUqH70FMvu&sigi=1W0SI0Jmpv8Q&sigt=Kw9HadYPyacD&.crumb=CZWHp7uUL0r&fr=mcafee&fr2=p%3As%2Cv%3Ai%2Cm%3Asb-top&type=E210VN714G92020" target="_blank">
+                truy cập google
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Trang web đầu tiên của tôi</p>
+    </footer>
+</body>
+</html>
+
+/* Định dạng toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Phần đầu trang */
+header {
+    backgroud-color: #0077cc;
+    color: white;
+    text-aling: center;
+    padding: 20px;
+}
+
+?* Nội dung */
+main{
+    width: 80%;
+    margin: auto; padding: 20px;
+}
+
+/* Các khối nội dung */
+<section> {
+    backgroud: white;
+    padding: 15px;
+    argin-botton: 20px;
+    border-radius: 8px;
+    bõ-shadow: 00 8px rgba(0,0,0,0.1);
+}    
+</section>
+
+?* Tiêu đề */
+h2 {
+    color: #0077cc;
+}
+
+?* Hình ảnh */
+img {
+    width: 100;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+/* Liên kết */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    volor: red;
+    text-decoration: underline;
+}
+
+?* Chân trang */
+footer {
+    background-color: #0077cc;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
